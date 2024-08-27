@@ -1,6 +1,5 @@
 import { useState } from "react";
 export default function Player({ name: initialName,isActive, symbol, onChangeName }) {
-  // Thay đổi từ span => input khi nhấn nút edit
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
 
